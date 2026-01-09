@@ -173,29 +173,6 @@ The ensemble was trained on the **augmented dataset** and evaluated on:
 
 ---
 
-## Why This Matters
-
-This project demonstrates:
-- real-world NLP preprocessing on messy data
-- advanced class imbalance handling using LLMs
-- hybrid modeling (classical ML + transformers)
-- ensemble design and evaluation
-- external validation for generalizability
-
-It reflects practical challenges in deploying NLP systems in high-risk domains where **false negatives have serious consequences.**
-
----
-
-## Repository Structure
-
-/notebooks - EDA, modeling, augmentation experiments
-/src - reusable preprocessing and modeling code
-/data - processed datasets (no raw source data)
-/reports - figures, tables, evaluation outputs
-
-
----
-
 ## Limitations & Future Work
 
 - Lack of externally verified fraud-labeled datasets limits real-world benchmarking
