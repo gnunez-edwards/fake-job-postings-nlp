@@ -1,9 +1,9 @@
 # Fake vs Real Job Postings – NLP Capstone
 
 ## Overview
-Online job platforms are increasingly targeted by fraudulent postings that mislead job seekers, extract personal or financial information, and exploit vulnerable populations. These scams are becoming more sophisticated and often mimic legitimate corporate language, making them difficult to detect using simple keyword filters.
+Instances of fraudulent job postings have increased significantly in recent years, making the task of obtaining employment even more difficult, adding the potential for wasted time, or even theft of financial or personal identification data. 
 
-The goal of this project is to **build robust NLP and machine learning models capable of classifying job postings as real or fraudulent**, with a strong emphasis on:
+The goal of this project is to **build robust NLP and machine learning models capable of classifying job postings as real or fraudulent**, with emphasis on:
 - handling extreme class imbalance
 - capturing nuanced linguistic patterns
 - and ensuring generalizability to real-world data
@@ -56,8 +56,6 @@ All text fields were combined into a single `text_all` feature and processed usi
   - `telecommuting`
   - `has_questions`
   - `has_company_logo`
-
-> Note: Core experiments focused on text features, but structured features were engineered for future fusion.
 
 ---
 
