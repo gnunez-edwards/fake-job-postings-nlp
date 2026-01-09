@@ -15,8 +15,7 @@ This project was completed as a Master’s capstone in Data Science and combines
 ## Problem Statement
 Fraudulent job postings represent a growing threat as online recruitment scales and scam tactics become more convincing. Many fraudulent listings closely resemble legitimate opportunities, using professional tone, detailed descriptions, and realistic formatting.
 
-This project addresses the challenge of:
-> **Detecting deceptive language and behavioral patterns in job postings using NLP and machine learning, even when fraudulent examples are severely underrepresented.**
+This project addresses the challenge of **detecting deceptive language and behavioral patterns in job postings using NLP and machine learning, even when fraudulent examples are severely underrepresented.**
 
 ---
 
