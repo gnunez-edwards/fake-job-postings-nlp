@@ -31,6 +31,7 @@ This project followed an end-to-end NLP and machine learning pipeline:
   - Support Vector Machines
   - Decision Trees
 - Ensemble methods to improve robustness
+- Use of GPT2 synthetic data to handle class imbalance in case of fraud class
 - Model evaluation using **precision, recall, and F1-score**, with particular
   emphasis on recall for fraudulent postings
 
