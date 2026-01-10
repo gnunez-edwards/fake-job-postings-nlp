@@ -155,7 +155,9 @@ The ensemble was trained on the **augmented dataset** and evaluated on:
 
 ### Model Behavior
 - **Linear models (Logistic Regression, SVM)** performed best on sparse TF-IDF features  
-- **Decision Trees** underfit and struggled with high-dimensional text data  
+- **Decision Trees** underfit and struggled with high-dimensional text data
+<img src="figures/learning_curve.png" width="500">
+
 - **BERT** showed strong baseline performance with minimal gain from augmentation  
 - **GPT-2 augmentation** significantly improved recall for Naive Bayes and Logistic Regression, but introduced variance in SVM and Decision Tree models  
 
