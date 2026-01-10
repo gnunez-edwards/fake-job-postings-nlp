@@ -180,16 +180,22 @@ This comparison highlights the tradeoffs between classical ML models, transforme
 
 ### Confusion Matrices
 
-<p float="left">
-  <img src="figures/confusion_matrix_lr_tuned.png" width="250" />
-  <img src="figures/confusion_matrix_bert.png" width="250" />
-  <img src="figures/confusion_matrix_stacking.png" width="250" />
-</p>
-
-From left to right:
-- Logistic Regression (Tuned)  
-- BERT Baseline  
-- Stacking Ensemble  
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/confusion_matrix_lr_tuned.png" width="250" /><br />
+      <sub><b>Logistic Regression (Tuned)</b></sub>
+    </td>
+    <td align="center">
+      <img src="figures/confusion_matrix_bert.png" width="250" /><br />
+      <sub><b>BERT Baseline</b></sub>
+    </td>
+    <td align="center">
+      <img src="figures/confusion_matrix_stacking.png" width="250" /><br />
+      <sub><b>Stacking Ensemble</b></sub>
+    </td>
+  </tr>
+</table>
 
 These confusion matrices illustrate the balance between false positives and false negatives, a critical consideration in fraud detection where missed scams can have serious consequences.
 
