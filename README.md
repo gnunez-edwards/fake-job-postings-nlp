@@ -62,9 +62,9 @@ All text fields were combined into a single `text_all` feature and processed usi
 
 EDA was conducted to understand:
 - **Class imbalance severity**
-- <img src="figures/class_distribution.png" width="500">
-
-- **Salary distributions** (raw vs clipped)
+  <img src="figures/class_distribution.png" width="500">
+- **Salary distributions**
+  <img src="figures/salary_distribution.ong" width="500">
 - **Fraud proportions across categorical features**
   - employment type
   - required education
